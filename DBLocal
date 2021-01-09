@@ -1,0 +1,33 @@
+{
+  "ids": {
+    "Cliente": 11,
+    "Mesa": 6,
+    "Orden": 5,
+    "Platillo": 4,
+    "Pago": 3
+  },
+  "models": {
+    "Cliente": {
+      "6": "{\"nombreCliente\":\"Isabel\",\"fechaNacimiento\":\"24/ENE/1986\",\"tipoCliente\":\"VIP\",\"numAcompa\":1,\"numMenores\":0,\"idCliente\":6}",
+      "9": "{\"idCliente\":9,\"nombreCliente\":\"Ramon\",\"fechaNacimiento\":\"19/DIC/1985\",\"tipoCliente\":\"Preferente\",\"numAcompa\":5,\"numMenores\":2}",
+      "10": "{\"nombreCliente\":\"Rosa\",\"fechaNacimiento\":\"25/DIC/1980\",\"tipoCliente\":\"Consentido\",\"numAcompa\":4,\"numMenores\":1,\"idCliente\":10}"
+    },
+    "Mesa": {
+      "2": "{\"idMesa\":2,\"cantidadSillas\":6,\"ubicacionSilla\":\"En la esquina\"}",
+      "5": "{\"cantidadSillas\":4,\"ubicacionSilla\":\"Junto a la barra\",\"idMesa\":5}"
+    },
+    "Orden": {
+      "1": "{\"fechaOrden\":\"02/ENE/2021\",\"horaOrden\":\"16:15\",\"idOrden\":1}",
+      "2": "{\"idOrden\":2,\"fechaOrden\":\"24/DIC/2020\",\"horaOrden\":\"23:30\"}",
+      "4": "{\"fechaOrden\":\"26/03/2020\",\"horaOrden\":\"08:30\",\"idOrden\":4}"
+    },
+    "Platillo": {
+      "1": "{\"descripcionPlatillo\":\"Te de manzanilla\",\"porcionesPlatillo\":\"1\",\"precioPlatillo\":\"5.00\",\"horaPlatillo\":\"18:18\",\"comentariosPlatillo\":\"Sin endulzante\",\"idPlatillo\":1}",
+      "3": "{\"idPlatillo\":3,\"descripcionPlatillo\":\"Ensalada\",\"porcionesPlatillo\":\"4\",\"precioPlatillo\":\"39.90\",\"horaPlatillo\":\"20:00\",\"comentariosPlatillo\":\"Sin aderezo\"}"
+    },
+    "Pago": {
+      "1": "{\"idEmpleado\":4,\"idCliente\":56743,\"idOrden\":7543,\"totalApagar\":\"354.78\",\"idPago\":1}",
+      "2": "{\"idEmpleado\":1,\"idCliente\":23,\"idOrden\":673,\"totalApagar\":\"45.50\",\"idPago\":2}"
+    }
+  }
+}
